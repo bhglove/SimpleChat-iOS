@@ -15,6 +15,8 @@
 		433460391DB10FE800B71389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433460371DB10FE800B71389 /* LaunchScreen.storyboard */; };
 		433460441DB10FE900B71389 /* bhglove_P4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433460431DB10FE900B71389 /* bhglove_P4Tests.swift */; };
 		4334604F1DB10FE900B71389 /* bhglove_P4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4334604E1DB10FE900B71389 /* bhglove_P4UITests.swift */; };
+		435F53BC1DB2713B0095BC92 /* Conversations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435F53BB1DB2713B0095BC92 /* Conversations.storyboard */; };
+		435F53BF1DB2719B0095BC92 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435F53BE1DB2719B0095BC92 /* ConversationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4334604A1DB10FE900B71389 /* bhglove.P4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bhglove.P4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4334604E1DB10FE900B71389 /* bhglove_P4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bhglove_P4UITests.swift; sourceTree = "<group>"; };
 		433460501DB10FE900B71389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435F53BB1DB2713B0095BC92 /* Conversations.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Conversations.storyboard; sourceTree = "<group>"; };
+		435F53BE1DB2719B0095BC92 /* ConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		4334602A1DB10FE800B71389 /* bhglove.P4 */ = {
 			isa = PBXGroup;
 			children = (
+				435F53BD1DB2714C0095BC92 /* ViewControllers */,
+				435F53BA1DB2711D0095BC92 /* Storyboards */,
 				4334602B1DB10FE800B71389 /* AppDelegate.swift */,
 				4334602D1DB10FE800B71389 /* ViewController.swift */,
 				4334602F1DB10FE800B71389 /* Main.storyboard */,
@@ -126,6 +132,22 @@
 				433460501DB10FE900B71389 /* Info.plist */,
 			);
 			path = bhglove.P4UITests;
+			sourceTree = "<group>";
+		};
+		435F53BA1DB2711D0095BC92 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				435F53BB1DB2713B0095BC92 /* Conversations.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		435F53BD1DB2714C0095BC92 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				435F53BE1DB2719B0095BC92 /* ConversationController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				433460391DB10FE800B71389 /* LaunchScreen.storyboard in Resources */,
+				435F53BC1DB2713B0095BC92 /* Conversations.storyboard in Resources */,
 				433460361DB10FE800B71389 /* Assets.xcassets in Resources */,
 				433460311DB10FE800B71389 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +284,7 @@
 			files = (
 				433460341DB10FE800B71389 /* bhglove_P4.xcdatamodeld in Sources */,
 				4334602E1DB10FE800B71389 /* ViewController.swift in Sources */,
+				435F53BF1DB2719B0095BC92 /* ConversationController.swift in Sources */,
 				4334602C1DB10FE800B71389 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +510,7 @@
 				433460551DB10FE900B71389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		433460561DB10FE900B71389 /* Build configuration list for PBXNativeTarget "bhglove.P4Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +519,7 @@
 				433460581DB10FE900B71389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		433460591DB10FE900B71389 /* Build configuration list for PBXNativeTarget "bhglove.P4UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +528,7 @@
 				4334605B1DB10FE900B71389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
